@@ -7,8 +7,8 @@ interface Data {
 }
 
 app.get('/home', (req, res) => {
-  // Récupérer les données depuis le back-end
-  const data: Data = {}; // Récupération des données depuis la base de données ou le stockage de cloud
+  // Récupérer données depuis back-end
+  const data: Data = {}; // Récupération données depuis base de données ou stockage de cloud
   res.json({ data });
 });
 
